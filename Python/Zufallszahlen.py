@@ -2,7 +2,7 @@
 import random
 
 # Programm im Endlosmodus laufen lassen
-while(true)
+while true:
 
 # Zufallsgenerator initialisieren
    random.seed()
