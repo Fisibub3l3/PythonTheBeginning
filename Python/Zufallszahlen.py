@@ -2,7 +2,7 @@
 import random
 
 # Programm im Endlosmodus laufen lassen
-while true:
+while True:
 
 # Zufallsgenerator initialisieren
    random.seed()
@@ -25,5 +25,7 @@ while true:
 # Antworten vergleichen
    if(int(z)==int(c)):
       print("THE ANSWER IS CORRECT")
+      break
    else:
       print("THE ANSWER IS WRONG")
+    pass
