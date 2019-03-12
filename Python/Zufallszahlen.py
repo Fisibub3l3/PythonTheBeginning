@@ -1,8 +1,8 @@
+# Modul random importieren
+import random
+
 # Programm im Endlosmodus laufen lassen
 while(true)
-
-# Modul random importieren
-   import random
 
 # Zufallsgenerator initialisieren
    random.seed()
@@ -14,7 +14,7 @@ while(true)
    print("Die Aufgabe:",a,"+",b)
 
 # Eingabe
-   print("Bitte eine Zahl eingeben:")
+   print("Bitte Ihre Antwort eingeben:")
    z=input()
    zahl=int(z)
 
@@ -24,6 +24,6 @@ while(true)
 
 # Antworten vergleichen
    if(int(z)==int(c)):
-      print("CORRECT")
+      print("THE ANSWER IS CORRECT")
    else:
-      print("WRONG")
+      print("THE ANSWER IS WRONG")
