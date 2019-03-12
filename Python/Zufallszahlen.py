@@ -28,4 +28,6 @@ while True:
       break
    else:
       print("THE ANSWER IS WRONG")
-    pass
+   print("----------------------------------------")
+
+   pass
